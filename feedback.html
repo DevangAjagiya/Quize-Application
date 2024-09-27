@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productivity App</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+    body{background: #0a3c3c;}
+    h1 {margin: 0px; color: #ffffff;}
+    h2 {text-align: center; font-size: 2.5rem; margin-top: 40px; color: #ffffff;}
+    </style>
+  </head>
+  <body>
+        <header>
+          <nav class="navbar">
+            <div class="company-name">QUIZ MASTER</div>
+            <ul class="nav-items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Quiz.html">Make A Quize</a></li>
+              <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+          </nav>
+        </header>
+    <main>
+      <!--PhoneBook-->
+      <h2> Survey </h2>
+      <div class="contact-form">
+        <input type="text" id="name" placeholder="Name" />
+        <input type="email" id="email" placeholder="Email" />
+        <input type="text" id="message" placeholder="Message" />
+        <button id="addContactBtn">Message</button>
+      </div>
+      <div class="contact-list" id="contactList">
+        <!-- Contacts will be dynamically added here using JS -->
+      </div>
+    </main>
+    <footer id="ftr">This website copyright &copy; <span>Devang Ajagiya/8935397</span></footer>
+    <script src="feedback.js"></script>
+  </body>
+</html>
